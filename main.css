@@ -238,6 +238,10 @@
 #about>.container {
     width: 80%;
 }
+#h1
+{
+    padding-bottom: 1000px;
+}
 
 #about h1::after {
     content: "";
@@ -251,7 +255,7 @@
 #about h1 {
     text-align: center;
     color: #777 !important;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
 
     font-size: 50px;
 
@@ -413,7 +417,10 @@
 
 /* End Contact */
 
-
+#contact h1
+{
+    padding-bottom: 20px;
+}
 #contact h1::after {
     content: "";
     background-color: #007bff;
