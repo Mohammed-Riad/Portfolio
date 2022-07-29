@@ -3,10 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-a
+.nav a
 {
-    text-decoration: none;
+    text-decoration:none ;
 }
+
 .bg-dark
 {
     background-color: #252a34;
