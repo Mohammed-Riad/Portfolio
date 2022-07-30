@@ -278,9 +278,21 @@
     background-size: cover;
     background-position: center;
     background-color: #007bff;
+    border: 5px solid #007bff ;
+    animation-name: ha;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
+@keyframes ha
+{
+    10%
+    {
+        border: 5px solid black;
+    }
 
+  
+}
 .about-content h2 span {
     color: white;
     font-size: 100%;
@@ -338,9 +350,6 @@
     line-height: 35px;
 }
 
-.single-skill {
-    background: none;
-}
 
 #cv {
     width: 180px;
