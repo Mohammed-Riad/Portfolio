@@ -109,17 +109,19 @@
     justify-content: center;
     align-items: center;
     color: black;
+  
 
 }
 
 #Name {
     color: white;
+    
 
 }
 
-/* .Home_h1 {
-    margin-left: 8%;
-} */
+.Home_h1 {
+    font-size: 50px;
+}
 
 /* <!-- End Home--> */
 
@@ -223,7 +225,7 @@
 }
 
 #btn2 {
-    margin-top: 42px;
+    margin-top: 50px;
 }
 
 .Project_contact {
@@ -243,6 +245,16 @@
 
 
 /* Start Cotact */
+#btn5
+{
+    margin-top: 32px;
+}
+#btn3
+{margin-top: 32px;}
+#lan
+{
+    color: white;
+}
 #about>.container {
     width: 85%;
 }
@@ -342,7 +354,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 120px;
+    width: 110px;
     font-size: 14px;
     color: #ffffff;
     background: #007bff;
@@ -351,7 +363,7 @@
 
 .skillbar-title span {
     display: block;
-    padding: 0 15px;
+    padding: 0 8px;
     height: 35px;
     line-height: 35px;
 }
@@ -491,7 +503,12 @@
 
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
+    .Home_div1 {
+        width: 80%;
+
+    }
+
     .container1 {
         display: grid;
         grid-template-columns: auto;
@@ -507,7 +524,7 @@
     }
 
     .Home_div1 h1 {
-        font-size: 25px;
+        font-size: 30px;
 
     }
 }
@@ -516,7 +533,7 @@
 
 @media only screen and (max-width: 400px) {
     .Home_div1 {
-        width: 95%;
+        width: 80%;
 
     }
 
@@ -547,4 +564,28 @@
     }
 }
 
+@media only screen and (max-width: 380px) {
+    .Home_div1 {
+        width: 95%;
+
+    }
+
+    .Home_h1 h1 {
+        font-size: 15px;
+    }
+
+    .container1 {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s;
+    }
+
+    .container1>div {
+        width: 250px;
+
+    }
+  
+}
 /* End MEdia */
