@@ -487,23 +487,12 @@
 
 /* Start MEdia */
 
-@media only screen and (max-width: 600px) {
-    .Home_div1 {
-        width: 80%;
-
-    }
-
-    .Home_div1 h1 {
-        font-size: 20px;
-    }
-
-
-}
 
 
 
 
-@media only screen and (max-width: 950px) {
+
+@media only screen and (max-width: 1100px) {
     .Home_div1 {
         width: 80%;
 
@@ -524,16 +513,27 @@
     }
 
     .Home_div1 h1 {
-        font-size: 30px;
+        font-size: 40px;
 
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .Home_div1 {
+        width: 70%;
 
+    }
+
+    .Home_div1 h1 {
+        font-size: 20px;
+    }
+
+
+}
 
 @media only screen and (max-width: 400px) {
     .Home_div1 {
-        width: 80%;
+        width: 70%;
 
     }
 
@@ -566,7 +566,7 @@
 
 @media only screen and (max-width: 380px) {
     .Home_div1 {
-        width: 95%;
+        width: 70%;
 
     }
 
