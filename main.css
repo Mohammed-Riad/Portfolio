@@ -8,10 +8,11 @@
     text-decoration:none ;
 }
 
-.bg-dark
+.nav
 {
-    background-color: #252a34;
+    background-color: #0d6efd;
     color: white;
+    
    
 }
 .bg-dark img
@@ -28,6 +29,7 @@
     position: sticky;
     top: 0;
     z-index: 1;
+    
 
 }
 #navbar ul 
@@ -47,7 +49,7 @@
 
 #navbar ul li:hover
 {
-    background-color: #0d6efd;
+    background-color: black;
     border-radius: 5px;
    
 }
@@ -344,6 +346,7 @@
    
     cursor: pointer;
     transition: 0.5s;
+
 }
 
 .skillbar :hover {
@@ -359,6 +362,8 @@
     color: #ffffff;
     background: #007bff;
     text-align: center;
+   
+    
 }
 
 .skillbar-title span {
@@ -366,11 +371,12 @@
     padding: 0 8px;
     height: 35px;
     line-height: 35px;
+    
 }
 
 
 #cv {
-    width: 180px;
+    width: 120px;
     border: 0;
     padding: 12px 10px;
     outline: none;
@@ -380,26 +386,21 @@
     cursor: pointer;
     transition: 0.5s;
 }
+#cv a
+{
+    width: 180px;
+   color: #fff;
+ text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
 
 #name111 {
     color: #007bff;
 }
 
-#cv img {
-    width: 30px;
-    display: none;
-}
 
-#cv:hover img {
-    display: block;
-}
 
-#cv:hover {
-    width: 160px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 #skills {
     display: grid;
@@ -520,7 +521,7 @@
 
 @media only screen and (max-width: 600px) {
     .Home_div1 {
-        width: 70%;
+        width: 60%;
 
     }
 
@@ -562,6 +563,7 @@
     {
      display: none;
     }
+  
 }
 
 @media only screen and (max-width: 380px) {
@@ -586,6 +588,22 @@
         width: 250px;
 
     }
+   
   
 }
 /* End MEdia */
+#footer
+{
+    background-color: #0d6efd;
+    color: white;
+padding: 12px;
+}
+#footer .container p
+{
+    padding-top: 15px;
+}
+.cc
+{
+    margin: 3px;
+    color: red;
+}
