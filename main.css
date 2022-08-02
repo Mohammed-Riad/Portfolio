@@ -10,7 +10,7 @@
 
 .nav
 {
-    background-color: #0d6efd;
+    background-color: #1976d2;
     color: white;
     
    
@@ -102,7 +102,7 @@
 }
 
 .Home_div1 {
-    background-color: #0d6efd;
+    background-color: #1976d2;
     width: 50%;
     height: 100vh;
     opacity: 0.7;
@@ -148,7 +148,7 @@
 
 #Project h1::after {
     content: "";
-    background-color: #007bff;
+    background-color: #1976d2;
     display: block;
     height: 3px;
     width: 170px;
@@ -163,7 +163,7 @@
 .container1>div {
     width: 400px;
     height: 298px;
-    background-color: #0d6efd;
+    background-color: #1976d2;
     margin: 15px;
 
 
@@ -203,8 +203,7 @@
 }
 
 .Btn {
-    margin-top: 20px;
-
+    /* padding-top: 2px; */
 
 }
 
@@ -227,7 +226,7 @@
 }
 
 #btn2 {
-    margin-top: 50px;
+    margin-top: 45px;
 }
 
 .Project_contact {
@@ -249,10 +248,10 @@
 /* Start Cotact */
 #btn5
 {
-    margin-top: 32px;
+    margin-top: 28px;
 }
 #btn3
-{margin-top: 32px;}
+{margin-top: 27px;}
 #lan
 {
     color: white;
@@ -267,7 +266,7 @@
 
 #about h1::after {
     content: "";
-    background-color: #007bff;
+    background-color: #1976d2;
     display: block;
     height: 3px;
     width: 170px;
@@ -296,8 +295,8 @@
     position: relative;
     background-size: cover;
     background-position: center;
-    background-color: #007bff;
-    border: 5px solid #007bff ;
+    background-color: #1976d2;
+    border: 5px solid #1976d2 ;
     animation-name: ha;
     animation-duration: 10s;
     animation-iteration-count: infinite;
@@ -358,11 +357,11 @@
     top: 0;
     left: 0;
     width: 110px;
-    font-size: 14px;
-    color: #ffffff;
-    background: #007bff;
+    font-size: 15px;
+    color: black;
     text-align: center;
-   
+    font-weight: bold;
+   text-transform: capitalize;
     
 }
 
@@ -381,7 +380,7 @@
     padding: 12px 10px;
     outline: none;
     color: #fff;
-    background: linear-gradient(to right, #007bff, #007bff);
+    background: linear-gradient(to right, #1976d2, #1976d2);
     border-radius: 6px;
     cursor: pointer;
     transition: 0.5s;
@@ -396,7 +395,7 @@
 }
 
 #name111 {
-    color: #007bff;
+    color: #0d47a1;
 }
 
 
@@ -419,7 +418,7 @@
 }
 #contact h1::after {
     content: "";
-    background-color: #007bff;
+    background-color: #1976d2;
     display: block;
     height: 3px;
     width: 170px;
@@ -468,7 +467,7 @@
 
 .content-info .fa {
     margin: 10px;
-    color: #007bff;
+    color: #1976d2;
     font-weight: bold;
 }
 
@@ -597,7 +596,7 @@
 /* End MEdia */
 #footer
 {
-    background-color: #0d6efd;
+    background-color: #1976d2;
     color: white;
 padding: 12px;
 }
@@ -609,4 +608,25 @@ padding: 12px;
 {
     margin: 3px;
     color: red;
+    justify-content:s;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    flex-flow: column;
+    align-content: flex-start;
+}
+#f
+{
+    color: #1976d2;
+
+}
+#s
+{
+background-color: #1976d2;
+}
+#s:hover {
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 1);
+}
+.container1 > .Project_contact > div >h6
+{
+    padding-top: 5px;
 }
