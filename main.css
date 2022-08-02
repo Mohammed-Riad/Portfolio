@@ -346,10 +346,13 @@
     cursor: pointer;
     transition: 0.5s;
 
+
 }
 
 .skillbar :hover {
     box-shadow: 0 0 15px 5px rgba(0, 0, 0, 1);
+    
+
 }
 
 .skillbar-title {
@@ -357,7 +360,7 @@
     top: 0;
     left: 0;
     width: 110px;
-    font-size: 15px;
+    font-size: 14px;
     color: black;
     text-align: center;
     font-weight: bold;
@@ -367,7 +370,7 @@
 
 .skillbar-title span {
     display: block;
-    padding: 0 8px;
+    padding: 0 1px;
     height: 35px;
     line-height: 35px;
     
