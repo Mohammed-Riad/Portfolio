@@ -27,7 +27,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-    position: sticky;
     top: 0;
     z-index: 1;
     
@@ -71,6 +70,12 @@
     animation-name: Hamodeh;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+.e
+{
+    
 }
 
 #Full {
@@ -228,6 +233,7 @@
 
 #btn2 {
     margin-top: 45px;
+    margin-left: 5px;
 }
 
 .Project_contact {
@@ -249,13 +255,20 @@
 /* Start Cotact */
 #btn5
 {
-    margin-top: 28px;
+    margin-top: 20px;
+    margin-left: 5px;
 }
 #btn3
-{margin-top: 27px;}
+{margin-top: 27px;
+    margin-left: 5px;}
 #lan
 {
     color: white;
+    padding-left: 4px;
+}
+#v
+{
+    padding-left: 8px;
 }
 #about>.container {
     width: 85%;
@@ -361,7 +374,7 @@
     top: 0;
     left: 0;
     width: 110px;
-    font-size: 14px;
+    font-size: 15px;
     color: black;
     text-align: center;
     font-weight: bold;
@@ -501,7 +514,7 @@
 
 @media only screen and (max-width: 1200px) {
     .Home_div1 {
-        width: 70%;
+        width: 50%;
 
     }
 
@@ -543,7 +556,7 @@
     }
 
     .Home_div1 {
-        width: 60%;
+        width: 50%;
 
     }
 
@@ -555,7 +568,8 @@
 
 @media only screen and (max-width: 400px) {
     .Home_div1 {
-        width: 70%;
+        width: 60%;
+        opacity: 0.5;
 
     }
 
@@ -580,13 +594,12 @@
 
 @media only screen and (max-width: 380px) {
     .Home_div1 {
-        width: 70%;
+        width: 60%;
+       
 
     }
 
-    .Home_h1 h1 {
-        font-size: 15px;
-    }
+   
 
     .container1 {
         display: grid;
@@ -601,8 +614,27 @@
 
     }
    
-  
 }
+
+@media only screen and (max-width: 375px) 
+{
+    .Home_div1 {
+        width: 60%;
+        opacity: 0.5;
+       
+
+    }
+
+   .nav > a
+   {
+   font-size: 15px;
+   }
+    #ba
+    {
+        font-size: 13px;
+        font-weight: bolder;
+    }
+} 
 /* End MEdia */
 #footer
 {
